@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="E-book terapêutico para mulheres que enfrentam traição e padrões emocionais desadaptativos. Psicólogo Richelmy Murta." />
+	<meta name="author" content="Richelmy Murta Pinto, Psicólogo Clínico">
+	<title>Quando o Amor Machuca – E-book Terapêutico</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+		
+		:root {
+		  --primary-color: #2c3e50;
+		  --accent-color: #8e44ad;
+		  --bg-color: #fafafa;
+		  --text-color: #333333;
+		  --font-base: 'Roboto', sans-serif;
+		  --line-height: 1.75;
+		  --max-width: 900px;
+		}
+		
+		*, *::before, *::after {
+		  box-sizing: border-box;
+		  margin: 0;
+		  padding: 0;
+		}
+		
+		body {
+		  background-color: var(--bg-color);
+		  color: var(--text-color);
+		  font-family: var(--font-base);
+		  line-height: var(--line-height);
+		  display: flex;
+		  justify-content: center;
+		  padding: 1rem;
+		}
+		
+		.container {
+		  max-width: var(--max-width);
+		  width: 100%;
+		  background: #fff;
+		  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+		  border-radius: 8px;
+		  overflow: hidden;
+		}
+		
+		header {
+		  position: relative;
+		  width: 100%;
+		  height: 250px;
+		  background: url('https://i.pinimg.com/736x/09/04/cc/0904cc5fb13d2d7d30afa341b5138098.jpg') center/cover no-repeat;
+		}
+		
+		header h1 {
+		  position: absolute;
+		  bottom: 1rem;
+		  left: 1rem;
+		  color: #fff;
+		  font-size: 2rem;
+		  background: rgba(44,62,80,0.75);
+		  padding: 0.5rem 1rem;
+		  border-radius: 4px;
+		}
+		
+		main {
+		  padding: 2rem;
+		  text-align: justify;
+		}
+		
+		h2 {
+		  color: var(--primary-color);
+		  margin-top: 2rem;
+		  margin-bottom: 1rem;
+		  font-weight: 500;
+		}
+		
+		p {
+		  margin-bottom: 1.25rem;
+		  font-size: 1rem;
+		}
+		
+		.steps button {
+		  display: block;
+		  width: 100%;
+		  text-align: left;
+		  background: var(--accent-color);
+		  color: #fff;
+		  border: none;
+		  padding: 0.75rem 1rem;
+		  margin-bottom: 0.5rem;
+		  border-radius: 4px;
+		  font-size: 1rem;
+		  cursor: pointer;
+		  transition: background 0.3s ease;
+		}
+		
+		.steps button:hover,
+		.steps button:focus {
+		  background: #732d91;
+		  outline: none;
+		}
+		
+		.steps .content {
+		  display: none;
+		  padding: 0.75rem 1rem;
+		  border-left: 4px solid var(--accent-color);
+		  background: #f9f4fc;
+		  margin-bottom: 1rem;
+		  border-radius: 0 4px 4px 0;
+		}
+		
+		/* Vídeos: mobile-first grid */
+		.video-section {
+		  display: grid;
+		  grid-template-columns: 1fr;
+		  gap: 1rem;
+		  margin-top: 2rem;
+		}
+		
+		.video {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  width: 100%;
+		}
+		
+		.video iframe {
+		  width: 100%;
+		  aspect-ratio: 16 / 9;
+		  border: none;
+		  border-radius: 4px;
+		}
+		
+		.video-desc {
+		  margin-top: 0.75rem;
+		  font-size: 0.95rem;
+		  text-align: center;
+		}
+		
+		/* Vídeos: desktop grid */
+		@media (min-width: 769px) {
+		  .video-section {
+		    grid-template-columns: repeat(3, 1fr);
+		  }
+		  .video {
+		    align-items: flex-start;
+		  }
+		  .video-desc {
+		    text-align: left;
+		    width: calc(100% - 1rem);
+		    margin-left: 0.5rem;
+		  }
+		}
+		
+		footer {
+		  background: var(--primary-color);
+		  color: #fff;
+		  text-align: center;
+		  padding: 1.5rem;
+		  font-size: 0.9rem;
+		}
+		
+		footer a {
+		  color: var(--accent-color);
+		  text-decoration: none;
+		}
+		
+		@media (max-width: 768px) {
+		  header h1 { font-size: 1.5rem; }
+		  main { padding: 1rem; }
+		}
+		/* Justificar texto das descrições de vídeo */
+		.video-desc {
+		  margin-top: 0.75rem;
+		  font-size: 0.95rem;
+		  text-align: justify;
+		}
+		
+		/* Remova ou comente quaisquer regras anteriores que definiam text-align:center ou left */
+		
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h1>Quando o Amor Machuca</h1>
+		</header>
+		<main>
+			<p><strong>Um guia terapêutico para Michele – e para todas as mulheres que já toleraram o intolerável em nome do amor</strong></p>
+			<h2>Introdução</h2>
+			<p>Michele, este texto foi escrito para você. Mais do que um conteúdo informativo, ele é um convite ao autoconhecimento e à dignidade emocional. O que você está vivendo agora é doloroso, sim. A traição de um parceiro que deveria cuidar de você machuca fundo. Mas talvez o que mais fere nem seja o que ele fez, e sim o que isso te faz lembrar — mesmo que de forma silenciosa e inconsciente.</p>
+			<p>A dor que você sente agora não é só sobre o presente. Ela é um eco de outras dores que vieram antes. Dores que talvez você tenha aprendido a suportar em silêncio, que foram normalizadas, ignoradas ou invisibilizadas. É por isso que não basta apenas "seguir em frente". Para que o próximo passo seja verdadeiramente seu, ele precisa vir de um lugar diferente — mais lúcido, mais forte, mais justo com quem você é.</p>
+			<p>Neste e-book, vamos compreender o que são os chamados Esquemas Iniciais Desadaptativos (EIDs), como eles se formaram e de que forma eles têm moldado suas escolhas afetivas. Vamos explicar os três principais esquemas que aparecem no seu caso: o abandono (em sua forma resignada), a defectividade e a subjugação. E, ao final, oferecer orientações práticas para esta semana, com indicações de vídeos que vão te ajudar a continuar refletindo.</p>
+			<p>Tudo com calma. Com clareza. E com respeito à sua história.</p>
+			<h2>O que são Esquemas Iniciais Desadaptativos?</h2>
+			<p>Imagine que durante a infância e adolescência, você foi formando esquemas emocionais para entender o mundo e sobreviver afetivamente. Cada criança precisa de vínculos seguros, previsibilidade, afeto, aceitação e espaço para ser quem é. Mas, quando essas necessidades não são plenamente atendidas, a criança não “entende” isso racionalmente — ela interpreta com o corpo, com a alma, com o afeto. E, para continuar pertencendo, ela aprende a se adaptar.</p>
+			<p>Essas adaptações, ao longo do tempo, tornam-se padrões inconscientes que moldam a forma como a pessoa se vê, como vê os outros e como se comporta nos relacionamentos. Na psicologia, chamamos esses padrões de Esquemas Iniciais Desadaptativos.</p>
+			<h2>Esquemas Principais</h2>
+			<div class="steps">
+				<button aria-expanded="false" aria-controls="step1">1. Esquema de Abandono/Instabilidade (resignado)</button>
+				<div id="step1" class="content">
+					<p>O esquema de abandono se instala quando a criança experimenta vínculos instáveis, ausências emocionais ou físicas, ou convivência com cuidadores imprevisíveis. O que ela aprende é que não pode contar com o outro. Que o amor pode ir embora de repente. Que quem cuida hoje pode virar as costas amanhã. Quando esse esquema chega à vida adulta, ele se manifesta de formas diferentes. Em algumas pessoas, há crises de ansiedade, ciúme excessivo, tentativas de controle. Em outras — como é o seu caso — o abandono assume uma forma mais silenciosa: a resignação. Você não implora. Você não faz escândalo. Mas, para manter o vínculo, você se cala. Aceita migalhas. Tenta “não atrapalhar”. E, ainda que algo em você grite que isso está errado, outra parte — mais profunda e ferida — diz que é melhor isso do que nada. Que é melhor uma presença falha do que o abandono total. Mas essa ideia está equivocada. O que você merece não é um amor instável e ferido. É um amor firme, claro, respeitoso. Um vínculo que não machuca para permanecer.</p>
+				</div>
+				<button aria-expanded="false" aria-controls="step2">2. Esquema de Defectividade/Vergonha</button>
+				<div id="step2" class="content">
+					<p>Este esquema nasce quando, em algum momento da vida, a criança recebe a mensagem (explícita ou implícita) de que há algo de errado com ela. Pode ser por críticas constantes, rejeições, comparações, abusos ou até pela falta de valorização emocional. Essa criança cresce sentindo que não é boa o suficiente. Na vida adulta, esse esquema se traduz em insegurança, autocrítica severa e sentimentos crônicos de inadequação. A pessoa sente que, se os outros realmente souberem quem ela é, vão se afastar. E quando algo dá errado, como uma traição, o primeiro impulso não é pensar “isso é responsabilidade do outro”, mas sim “isso aconteceu porque eu não fui suficiente”. A dor da traição é real. Mas ela não deveria ativar culpa. O fato de ter sido traída não tem relação com seu valor como mulher. A escolha do outro fala sobre ele — não sobre você. Seu valor não depende do comportamento de ninguém. Você já é valiosa por existir.</p>
+				</div>
+				<button aria-expanded="false" aria-controls="step3">3. Esquema de Subjugação</button>
+				<div id="step3" class="content">
+					<p>Este esquema surge quando, na infância, a criança aprende que precisa se submeter para ser aceita. Isso pode ocorrer por meio de relações autoritárias, invalidação frequente ou ausência de espaço emocional para expressar vontades, raivas e desejos. Assim, para sobreviver afetivamente, ela aprende a calar, ceder e se ajustar. Na vida adulta, esse padrão se transforma em relacionamentos onde o outro tem sempre a palavra final. A pessoa se acostuma a se anular para evitar conflito. Tolera o intolerável para não ser rejeitada. Vai cedendo, recuando, se afastando de si mesma. Subjugação não é bondade. Não é maturidade. É sofrimento crônico camuflado de “paz”. E chega um momento em que a alma cobra o preço de tanto silêncio.</p>
+				</div>
+			</div>
+			<h2>Por que isso se repete?</h2>
+			<p>A repetição não acontece porque você quer sofrer. Ela acontece porque os esquemas são como bússolas internas, que apontam sempre para os mesmos mapas — mesmo quando são mapas de dor. Há um mecanismo inconsciente que busca confirmar aquilo que já se acredita. Se o seu esquema diz que “ninguém fica”, que “você não é suficiente”, ou que “é melhor não incomodar”, então sua mente (sem perceber) tende a buscar relações que reforcem essas mensagens. Mas a boa notícia é que padrões aprendidos podem ser revistos. Esquemas emocionais não são sentenças. São construções — e tudo que é construído pode ser reformado.</p>
+			<h2>O que fazer agora? Cinco orientações para a primeira semana</h2>
+			<p>Você está em um momento delicado, em que as emoções estão à flor da pele. Por isso, propomos um plano diário, com cinco práticas que trazem acolhimento, clareza e fortalecimento interior. Escolha um horário tranquilo a cada dia e encare cada passo como um gesto de autocuidado e respeito próprio.</p>
+			<div class="steps">
+				<button aria-expanded="false" aria-controls="action1">1. Crie seu santuário interno</button>
+				<div id="action1" class="content">
+					<p>Reserve 5 minutos para fechar os olhos e respirar profundamente. Imagine um lugar seguro—pode ser real ou inventado—onde você se sente protegida e em paz. Visualize cores, sons e sensações. Esse pequeno refúgio mental estabiliza o sistema nervoso e prepara sua mente para os próximos passos.</p>
+				</div>
+				<button aria-expanded="false" aria-controls="action2">2. Despeje no papel</button>
+				<div id="action2" class="content">
+					<p>A cada dia, escreva livremente sobre suas emoções: raiva, tristeza, alívio ou dúvidas. Use frases curtas, tópicos ou até desenhos. Não julgue o que surge; simplesmente registre. A externalização reduz a carga emocional e ajuda a organizar pensamentos, revelando padrões inconscientes.</p>
+				</div>
+				<button aria-expanded="false" aria-controls="action3">3. Reviva suas vitórias</button>
+				<div id="action3" class="content">
+					<p>Liste três conquistas pessoais—podem ser pequenas, como concluir uma tarefa, ou grandes, como superar um desafio. Reler suas realizações fortalece a autoestima e desmente a voz interior que questiona seu valor. Reconecte-se com sua competência e coragem.</p>
+				</div>
+				<button aria-expanded="false" aria-controls="action4">4. Ensaios de voz e limites</button>
+				<div id="action4" class="content">
+					<p>Escreva uma mensagem ou frase afirmativa dirigindo-se a ele, expressando seus sentimentos e limites com clareza: “Eu preciso de respeito e clareza”. Mesmo que não envie, esse ensaio fortalece sua assertividade e prepara você para comunicar necessidades de forma equilibrada.</p>
+				</div>
+				<button aria-expanded="false" aria-controls="action5">5. Transforme insights em ação</button>
+				<div id="action5" class="content">
+					<p>Assista aos vídeos recomendados e anote um insight principal de cada um. Em seguida, defina um passo prático para aplicar ainda hoje—ainda que seja apenas uma reflexão verbalizada em voz alta. Essas pequenas ações consolidam aprendizados e promovem mudanças reais.</p>
+				</div>
+			</div>
+			<h2>Vídeos Recomendados</h2>
+			<p class="video-intro">Selecionamos três vídeos para aprofundar sua compreensão sobre os esquemas emocionais e oferecer ferramentas práticas para seu processo de autocuidado.</p>
+			<div class="video-section">
+				<div class="video">
+					<iframe src="https://www.youtube.com/embed/EopIS8cx648" title="Esquema de Abandono - YouTube" allowfullscreen></iframe>
+					<p class="video-desc">Este vídeo explica como o <strong>Esquema de Abandono</strong> se origina na infância e se manifesta na vida adulta, ajudando você a reconhecer sinais e padrões que ativam essa ferida emocional.</p>
+				</div>
+				<div class="video">
+					<iframe src="https://www.youtube.com/embed/iw0UzwdZsz4" title="Esquema de Defectividade - YouTube" allowfullscreen></iframe>
+					<p class="video-desc">Neste conteúdo, você vai entender o <strong>Esquema de Defectividade</strong>, compreender por que surge a sensação de não ser bom o suficiente e descobrir estratégias iniciais para lidar com essa voz interna crítica.</p>
+				</div>
+				<div class="video">
+					<iframe src="https://www.youtube.com/embed/rs_WF1nJW0w" title="Perdoar traição? - Marcos Lacerda" allowfullscreen></iframe>
+					<p class="video-desc">Marcos Lacerda aborda a complexidade de <strong>perdoar uma traição</strong>, discutindo critérios e reflexões para decidir se esse caminho é saudável para seu processo de cura.</p>
+				</div>
+			</div>
+			<h2>Conclusão</h2>
+			<p>Você não está quebrada. Você está despertando. O que hoje parece fraqueza, amanhã será memória de força. Você não precisa gritar para ser ouvida. Nem ceder para ser amada. Você precisa, sim, se encontrar de novo. E lembrar que merecer amor nunca dependeu de dor. Estou com você nesse caminho. Vamos atravessar esse processo juntos, com técnica, escuta e reconstrução. </p>
+		</main>
+		<footer>
+			<p><strong>Richelmy Murta Pinto</strong><br> Psicólogo Clínico <br> Especialista em Terapia Cognitivo-Comportamental<br> Atendimento Online | Instagram: <a href="https://www.instagram.com/ricmurtapsicologia" target="_blank">@ricmurtapsicologia</a></p>
+		</footer>
+	</div>
+	<script>
+		document.querySelectorAll('.steps button').forEach(btn => {
+		  btn.addEventListener('click', () => {
+		    const content = document.getElementById(btn.getAttribute('aria-controls'));
+		    const expanded = btn.getAttribute('aria-expanded') === 'true';
+		    btn.setAttribute('aria-expanded', !expanded);
+		    content.style.display = expanded ? 'none' : 'block';
+		  });
+		});
+	</script>
+</body>
+
+</html>
